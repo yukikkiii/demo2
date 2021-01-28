@@ -352,19 +352,19 @@
                 var sa = nowScroll - beforeScroll;
                 beforeScroll = nowScroll
 
-                $(".mv__bg").each(function(){
-                    var imgBottom = $(this).outerHeight();
-                    if (nowScroll < $(window).outerHeight()) {
-                        var matrix = $(this).css("transform");
-                        const m = matrix.replace(/matrix|\)|\(/g, "").split(",");
-                        var y = m ? m[5] : 0;
-                        $(this).css({
-                            "transform": `translateY(${ - (nowScroll) / 3}px)`
-                        })
-                    } else {
+                // $(".mv__bg").each(function(){
+                //     var imgBottom = $(this).outerHeight();
+                //     if (nowScroll < $(window).outerHeight()) {
+                //         var matrix = $(this).css("transform");
+                //         const m = matrix.replace(/matrix|\)|\(/g, "").split(",");
+                //         var y = m ? m[5] : 0;
+                //         $(this).css({
+                //             "transform": `translateY(${ - (nowScroll) / 3}px)`
+                //         })
+                //     } else {
                         
-                    }
-                })
+                //     }
+                // })
             })
         
             $(".menu-link").on("click", function(){
