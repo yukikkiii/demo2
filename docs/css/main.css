@@ -111,6 +111,7 @@ span.js-scroll-visible {display: inline-block;}
 .fadeIn40{animation-delay: 4.0s;}
 .fadeIn45{animation-delay: 4.5s;}
 .fadeIn50{animation-delay: 5.0s;}
+.fadeIn55{animation-delay: 5.5s;}
 .fadeInNormal {animation-name:fadeInNomal;}
 .fadeInNormal55{animation-delay: 5.5s;animation-name:fadeInNomal;}
 .fadeInNormal15{ animation-delay: 1.5s;animation-name:fadeInNomal;}
@@ -150,6 +151,7 @@ section {position:relative; margin-bottom: 100px;}
 .p11 {font-size: 1.1rem}
 .p09 {font-size: 0.9rem}
 .p08 {font-size: 0.8rem}
+.btn-wrap {white-space: break-spaces;}
 .btn {display: inline-block;border: solid 1px rgba(0,0,0,0.8); padding: 5px 30px;font-size:1.2rem;text-align: center;}
 .colorBlack {color: rgba(0,0,0,0.5) !important;}
 .hamburger .colorBlack {background-color: rgba(0,0,0,0.5) !important;}
