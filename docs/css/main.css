@@ -263,12 +263,14 @@ section {position:relative; margin-bottom: 100px;}
 .insta__leftIcon {width: 60px; margin: 0 auto 20px;}
 .insta__leftIcon path{fill: #fff}
 .insta__rightInner {display: flex;justify-content: space-between;flex-wrap: wrap;}
-.insta__imgWrap {width: 32%;height: 143px;background-color: #CCC;margin-bottom: 10px;}
-.insta__imgWrap img {width: 110% !important; height: auto !important;}
+.insta__imgWrap {width: 32%;height: 166px;background-color: #CCC;margin-bottom: 10px;}
+.insta__imgWrap img {width: 110% !important; height: auto !important;zoom: 1.0;transition: all 0.4s;}
 .insta__imgWrap a:hover {transform: none !important;}
+.insta__imgWrap a:hover img {width: 130% !important;transition: all 0.4s;}
 .footer {background-color: #000;}
 .footer__inner {text-align:center;color: #fff;padding: 20px}
 @media screen and (max-width: 940px) {
+    .insta__imgWrap {height: 143px}
     .mC {margin-left: 20px; margin-right: 20px;}
     .mv__bg {background-size: auto 150%;}
     .mv__bg--visible {background-size: auto 100%;}
