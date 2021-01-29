@@ -182,7 +182,7 @@ section {position:relative; margin-bottom: 100px;}
 }
 .mv__bg {background: url(../img/mv5.jpg) no-repeat center center/cover;opacity:0; background-size: 150% auto;}
 .mv__bg::after {background-color: rgba(0,0,0,0.2);}
-.mv__content {opacity:1;position: absolute; top: 50%;left:40%;transform: translateY(-50%);color: #fff;z-index: -1}
+.mv__content {opacity:1;position: absolute; top: 50%;left:40%;transform: translateY(-50%);color: #fff;z-index: 1}
 
 .mv__bg--visible {opacity: 1;transition: background-size 7s cubic-bezier(.29, 0.95, 0.98, 1.0) 1s, opacity 3s 1s;background-size: 103% auto;}
 
