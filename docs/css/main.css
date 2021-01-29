@@ -265,6 +265,7 @@ section {position:relative; margin-bottom: 100px;}
 .insta__rightInner {display: flex;justify-content: space-between;flex-wrap: wrap;}
 .insta__imgWrap {width: 32%;height: 143px;background-color: #CCC;margin-bottom: 10px;}
 .insta__imgWrap img {width: 110% !important; height: auto !important;}
+.insta__imgWrap a:hover {transform: none !important;}
 .footer {background-color: #000;}
 .footer__inner {text-align:center;color: #fff;padding: 20px}
 @media screen and (max-width: 940px) {
