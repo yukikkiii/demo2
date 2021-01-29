@@ -317,7 +317,7 @@ section {position:relative; margin-bottom: 100px;}
 
     .mv {overflow: hidden;}
     .mv__bg {background-image: url(../img/mv_sp.jpg);}
-    .mv__bg {background-size: auto 100%;position: absolute;}
+    .mv__bg {position: absolute;}
     .mv__bg--visible {background-size: 100% auto;}
     .mv__content { left: unset;right: 10%; width: 80vw;z-index: 10; text-align: right;}
 
@@ -370,8 +370,6 @@ section {position:relative; margin-bottom: 100px;}
 }
 
 @media screen and (max-width: 480px) {
-    .mv__bg {background-size:auto 150%;}
-    .mv__bg--visible {background-size: auto 100% ;}
 }
 .js-scroll-visible {opacity: 0;}
 .js-content {opacity: 0; transform: translateY(20%); }
