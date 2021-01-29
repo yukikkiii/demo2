@@ -269,7 +269,7 @@ section {position:relative; margin-bottom: 100px;}
 .insta__imgWrap a:hover img {width: 130% !important;transition: all 0.4s;}
 .footer {background-color: #000;}
 .footer__inner {text-align:center;color: #fff;padding: 20px}
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1150px) {
     .insta__imgWrap {height: 143px}
     .mC {margin-left: 20px; margin-right: 20px;}
     .mv__bg {background-size: auto 150%;}
@@ -277,6 +277,8 @@ section {position:relative; margin-bottom: 100px;}
 }
 @media screen and (max-width: 768px) {
     .main {overflow: hidden;}
+    .mv__bg {background-size: 150% auto;}
+    .mv__bg--visible {background-size: 100% auto;}
     h1 {line-height: 1.3;margin-bottom: 20px;letter-spacing: 0.0rem;}
     h1 span {display: block;font-size:2.6rem;}
     .mv__chachTxt {font-size: 0.9rem;}
@@ -318,7 +320,6 @@ section {position:relative; margin-bottom: 100px;}
     .mv {overflow: hidden;}
     .mv__bg {background-image: url(../img/mv_sp.jpg);}
     .mv__bg {position: absolute;}
-    .mv__bg--visible {background-size: 100% auto;}
     .mv__content { left: unset;right: 10%; width: 80vw;z-index: 10; text-align: right;}
 
     #concept{height: auto;}
@@ -369,8 +370,6 @@ section {position:relative; margin-bottom: 100px;}
     footer > div{height: 20px!important;}
 }
 
-@media screen and (max-width: 480px) {
-}
 .js-scroll-visible {opacity: 0;}
 .js-content {opacity: 0; transform: translateY(20%); }
 .js-content--slideUp {opacity: 1; transform: translateY(0); transition: 1s 1s;}
