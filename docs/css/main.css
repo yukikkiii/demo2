@@ -261,8 +261,8 @@ section {position:relative; margin-bottom: 100px;}
 .insta__leftIcon {width: 60px; margin: 0 auto 20px;}
 .insta__leftIcon path{fill: #fff}
 .insta__rightInner {display: flex;justify-content: space-between;flex-wrap: wrap;}
-.insta__imgWrap {width: 32%;background-color: #CCC;margin-bottom: 10px;}
-.insta__imgWrap img {padding-top: 100%;}
+.insta__imgWrap {width: 32%;height: 143px;background-color: #CCC;margin-bottom: 10px;}
+.insta__imgWrap img {width: 110% !important; height: auto !important;}
 .footer {background-color: #000;}
 .footer__inner {text-align:center;color: #fff;padding: 20px}
 @media screen and (max-width: 940px) {
@@ -360,6 +360,7 @@ section {position:relative; margin-bottom: 100px;}
     .insta__inner {display: block;}
     .insta__left {width: auto;margin-bottom: 30px;}
     .insta__right {margin-left:0;}
+    .insta__imgWrap {height: 32vw;}
     footer > div{height: 20px!important;}
 }
 
